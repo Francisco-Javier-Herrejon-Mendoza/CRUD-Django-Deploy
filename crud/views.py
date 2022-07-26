@@ -15,7 +15,7 @@ def home(request):
     global empleado_buscado
 
     if bandera:
-        #cargarJSON()
+        cargarJSON()
         bandera = False
 
     if request.method == "POST" and "buscar" in request.POST:
