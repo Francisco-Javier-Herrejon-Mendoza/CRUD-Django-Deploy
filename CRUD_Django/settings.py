@@ -87,7 +87,8 @@ WSGI_APPLICATION = 'CRUD_Django.wsgi.application'
         'HOST': 'localhost',
         'PORT': '5432',
     }
-}'''
+}
+'''
 import dj_database_url
 from decouple import config
 DATABASES = {
